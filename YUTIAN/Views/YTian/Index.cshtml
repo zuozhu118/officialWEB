@@ -1,0 +1,99 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/YutianIndex.css" rel="stylesheet" />
+
+<!--banner 开始-->
+<div id="main">
+    <div class="banner">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</div>
+<!--banner 结束-->
+<!--3个项目 开始-->
+<div id="about"></div>
+<div id="project">
+    <ul>
+        <li>
+            <div id="project1">
+                <a href="/YTian/RentCar">
+                    <p class="title1">点点出行</p>
+                    <p class="title2">TIMESHARE RENTALS</p>
+                    <p class="title3">
+                        通过GPS定位、远程智能控制等技术，实现线上用车服务,撬动全民绿色出行杠杆。
+                    </p>
+                </a>
+            </div>
+        </li>
+        <li>
+            <div id="project2">
+                <a href="/YTian/ParkingLot">
+                    <p class="title1">点点停车</p>
+                    <p class="title2">PARKING LOT</p>
+                    <p class="title3">
+                        我们整合6项优势服务解决停车场信息孤岛问题，用户停车不再盲目，一键定位停车场。
+                    </p>
+                </a>
+            </div>
+        </li>
+        <li>
+            <div id="project3">
+                <a href="/YTian/ChargingPile">
+                    <p class="title1">点点充电</p>
+                    <p class="title2">CHARGING PILE</p>
+                    <p class="title3">
+                        通过对智能充电桩的改造，将所有充电桩连接到平台，
+用户通过app实时查看相关信息。
+                    </p>
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+<!--3个项目 结束-->
+<!--合作伙伴 开始-->
+<div id="partner"></div>
+<div id="partner_img"></div>
+<!--合作伙伴 结束-->
+
+<script type="text/javascript">
+    window.onload = function () {
+        
+        var index = 0;
+        var aLi = document.getElementsByClassName('banner')[0].getElementsByTagName('li');
+        //在窗体加载好了之后动态创建好所有的图片：
+        UpLoadImg();
+        function UpLoadImg() {
+            for (var i = 0; i < aLi.length; i++) {
+                let image = new Image();
+                image.src = `/img/banner${i}.jpg`;
+                aLi[i].innerHTML="";
+                aLi[i].appendChild(image);
+            }
+            //alert(i);
+        }
+        document.getElementsByClassName('banner')[0].getElementsByTagName('img')[2].onload=ImgLoaded();
+        function ImgLoaded(){
+            //alert('所有banner图片加载完毕---');
+            aLi[index].style.opacity =1;
+
+            //设置一个计时器，让当前li的透明度从1变到0，让下一个li的透明度从0变到1：
+            setInterval(function(){
+                
+                aLi[index].style.opacity=0;
+                if (index>=aLi.length-1) {
+                    index=-1;
+                }
+                aLi[index+1].style.opacity=1;
+                index++;
+                
+            },5000);
+        }
+    };
+</script>
+

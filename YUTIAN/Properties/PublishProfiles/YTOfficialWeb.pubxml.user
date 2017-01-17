@@ -1,0 +1,791 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/12/2016 14:21:54</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>09/12/2016 14:21:51</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>09/12/2016 14:21:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>09/12/2016 14:21:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>09/12/2016 14:21:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>09/12/2016 14:21:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>09/12/2016 14:21:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Providers.dll">
+      <publishTime>09/12/2016 14:21:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>09/12/2016 14:21:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>09/12/2016 14:21:54</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>09/12/2016 14:21:54</publishTime>
+    </File>
+    <File Include="bin/YUTIAN.dll">
+      <publishTime>01/17/2017 10:03:11</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/EntityFramework.resources.dll">
+      <publishTime>09/12/2016 14:21:55</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Net.Http.Formatting.resources.dll">
+      <publishTime>09/12/2016 14:21:55</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Http.resources.dll">
+      <publishTime>09/12/2016 14:21:55</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Http.WebHost.resources.dll">
+      <publishTime>09/12/2016 14:21:55</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Mvc.resources.dll">
+      <publishTime>09/12/2016 14:21:55</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Optimization.resources.dll">
+      <publishTime>09/12/2016 14:21:55</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Providers.resources.dll">
+      <publishTime>09/12/2016 14:21:55</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Razor.resources.dll">
+      <publishTime>09/12/2016 14:21:55</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.WebPages.Deployment.resources.dll">
+      <publishTime>09/12/2016 14:21:55</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.WebPages.Razor.resources.dll">
+      <publishTime>09/12/2016 14:21:55</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.WebPages.resources.dll">
+      <publishTime>09/12/2016 14:21:55</publishTime>
+    </File>
+    <File Include="Content/ChargingPile.css">
+      <publishTime>01/17/2017 10:22:11</publishTime>
+    </File>
+    <File Include="Content/ParkingLot.css">
+      <publishTime>01/17/2017 10:20:36</publishTime>
+    </File>
+    <File Include="Content/RentCar.css">
+      <publishTime>01/17/2017 10:33:21</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>09/12/2016 14:21:51</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_222222_256x240.png">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_454545_256x240.png">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_888888_256x240.png">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery-ui.css">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.accordion.css">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.all.css">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.autocomplete.css">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.base.css">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.button.css">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.core.css">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.datepicker.css">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.dialog.css">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.progressbar.css">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.resizable.css">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.selectable.css">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.slider.css">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.tabs.css">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.theme.css">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_222222_256x240.png">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_454545_256x240.png">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_888888_256x240.png">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery-ui.min.css">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.accordion.min.css">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.autocomplete.min.css">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.button.min.css">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.core.min.css">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.datepicker.min.css">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.dialog.min.css">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.progressbar.min.css">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.resizable.min.css">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.selectable.min.css">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.slider.min.css">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.tabs.min.css">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.theme.min.css">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Content/YutianIndex.css">
+      <publishTime>01/17/2017 10:31:33</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>09/22/2016 09:18:50</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/12/2016 14:21:51</publishTime>
+    </File>
+    <File Include="img/1.jpg">
+      <publishTime>09/14/2016 15:57:18</publishTime>
+    </File>
+    <File Include="img/10.jpg">
+      <publishTime>09/14/2016 15:57:18</publishTime>
+    </File>
+    <File Include="img/11.jpg">
+      <publishTime>09/14/2016 15:57:18</publishTime>
+    </File>
+    <File Include="img/12.jpg">
+      <publishTime>09/14/2016 15:57:18</publishTime>
+    </File>
+    <File Include="img/13.jpg">
+      <publishTime>09/14/2016 15:57:18</publishTime>
+    </File>
+    <File Include="img/14.jpg">
+      <publishTime>09/14/2016 15:57:18</publishTime>
+    </File>
+    <File Include="img/2.jpg">
+      <publishTime>09/14/2016 15:57:18</publishTime>
+    </File>
+    <File Include="img/3.jpg">
+      <publishTime>09/14/2016 15:57:18</publishTime>
+    </File>
+    <File Include="img/4.jpg">
+      <publishTime>09/14/2016 15:57:18</publishTime>
+    </File>
+    <File Include="img/5.jpg">
+      <publishTime>09/14/2016 15:57:18</publishTime>
+    </File>
+    <File Include="img/6.jpg">
+      <publishTime>09/14/2016 15:57:18</publishTime>
+    </File>
+    <File Include="img/7.jpg">
+      <publishTime>09/14/2016 15:57:18</publishTime>
+    </File>
+    <File Include="img/8.jpg">
+      <publishTime>09/14/2016 15:57:18</publishTime>
+    </File>
+    <File Include="img/9.jpg">
+      <publishTime>09/14/2016 15:57:18</publishTime>
+    </File>
+    <File Include="img/aboutus.png">
+      <publishTime>09/21/2016 14:10:39</publishTime>
+    </File>
+    <File Include="img/aboutus/com_profie_06.png">
+      <publishTime>09/21/2016 14:10:34</publishTime>
+    </File>
+    <File Include="img/aboutus/com_profie_15.png">
+      <publishTime>09/21/2016 14:10:34</publishTime>
+    </File>
+    <File Include="img/aboutus/com_profie_22.png">
+      <publishTime>09/21/2016 14:10:34</publishTime>
+    </File>
+    <File Include="img/aboutus/service_04.png">
+      <publishTime>09/21/2016 14:10:34</publishTime>
+    </File>
+    <File Include="img/aboutus/suc_case_03.png">
+      <publishTime>09/21/2016 14:10:34</publishTime>
+    </File>
+    <File Include="img/aboutus/suc＿case_03.png">
+      <publishTime>10/20/2016 15:56:39</publishTime>
+    </File>
+    <File Include="img/aboutus/suc＿case_06.png">
+      <publishTime>09/21/2016 14:10:34</publishTime>
+    </File>
+    <File Include="img/aboutus/suc＿case_10.png">
+      <publishTime>09/21/2016 14:10:34</publishTime>
+    </File>
+    <File Include="img/aboutus/suc＿case_12.png">
+      <publishTime>09/21/2016 14:10:34</publishTime>
+    </File>
+    <File Include="img/aboutus/teamstyle_06.png">
+      <publishTime>09/21/2016 14:10:34</publishTime>
+    </File>
+    <File Include="img/aboutus/team_07.png">
+      <publishTime>09/21/2016 14:10:34</publishTime>
+    </File>
+    <File Include="img/address_03.png">
+      <publishTime>09/21/2016 15:05:00</publishTime>
+    </File>
+    <File Include="img/address_07.png">
+      <publishTime>09/21/2016 15:05:00</publishTime>
+    </File>
+    <File Include="img/address_09.png">
+      <publishTime>09/21/2016 15:05:00</publishTime>
+    </File>
+    <File Include="img/adress_11.png">
+      <publishTime>09/21/2016 15:05:00</publishTime>
+    </File>
+    <File Include="img/banner0.jpg">
+      <publishTime>10/20/2016 14:42:56</publishTime>
+    </File>
+    <File Include="img/banner1-1.jpg">
+      <publishTime>10/20/2016 14:42:56</publishTime>
+    </File>
+    <File Include="img/banner1.jpg">
+      <publishTime>10/20/2016 14:42:56</publishTime>
+    </File>
+    <File Include="img/banner1.png">
+      <publishTime>10/08/2016 13:40:52</publishTime>
+    </File>
+    <File Include="img/banner2-1.jpg">
+      <publishTime>10/20/2016 14:42:56</publishTime>
+    </File>
+    <File Include="img/banner2.jpg">
+      <publishTime>10/20/2016 14:42:56</publishTime>
+    </File>
+    <File Include="img/banner2.png">
+      <publishTime>10/08/2016 13:40:52</publishTime>
+    </File>
+    <File Include="img/banner3-1.jpg">
+      <publishTime>10/20/2016 14:42:56</publishTime>
+    </File>
+    <File Include="img/banner3.jpg">
+      <publishTime>10/20/2016 11:52:43</publishTime>
+    </File>
+    <File Include="img/banner3.png">
+      <publishTime>10/08/2016 13:40:52</publishTime>
+    </File>
+    <File Include="img/bottom.png">
+      <publishTime>09/21/2016 14:10:40</publishTime>
+    </File>
+    <File Include="img/charge.jpg">
+      <publishTime>10/20/2016 14:15:03</publishTime>
+    </File>
+    <File Include="img/charge.png">
+      <publishTime>01/16/2017 17:29:01</publishTime>
+    </File>
+    <File Include="img/ewm.png">
+      <publishTime>09/21/2016 14:10:41</publishTime>
+    </File>
+    <File Include="img/hb_03.png">
+      <publishTime>09/21/2016 14:10:41</publishTime>
+    </File>
+    <File Include="img/hover.png">
+      <publishTime>09/21/2016 14:10:41</publishTime>
+    </File>
+    <File Include="img/logo.png">
+      <publishTime>09/21/2016 14:10:41</publishTime>
+    </File>
+    <File Include="img/p1.png">
+      <publishTime>09/21/2016 14:10:41</publishTime>
+    </File>
+    <File Include="img/p1h.png">
+      <publishTime>09/26/2016 09:08:01</publishTime>
+    </File>
+    <File Include="img/p2.png">
+      <publishTime>09/21/2016 14:10:42</publishTime>
+    </File>
+    <File Include="img/p2h.png">
+      <publishTime>09/21/2016 14:10:42</publishTime>
+    </File>
+    <File Include="img/p3.png">
+      <publishTime>09/21/2016 14:10:42</publishTime>
+    </File>
+    <File Include="img/p3h.png">
+      <publishTime>09/26/2016 09:08:40</publishTime>
+    </File>
+    <File Include="img/partner.png">
+      <publishTime>09/21/2016 14:10:42</publishTime>
+    </File>
+    <File Include="img/ph.png">
+      <publishTime>09/21/2016 14:10:43</publishTime>
+    </File>
+    <File Include="img/ph1.png">
+      <publishTime>10/24/2016 09:54:11</publishTime>
+    </File>
+    <File Include="img/ph2.png">
+      <publishTime>10/24/2016 09:54:11</publishTime>
+    </File>
+    <File Include="img/ph3.png">
+      <publishTime>10/24/2016 09:54:11</publishTime>
+    </File>
+    <File Include="img/Pickcar.jpg">
+      <publishTime>10/20/2016 14:15:03</publishTime>
+    </File>
+    <File Include="img/rent.png">
+      <publishTime>01/16/2017 17:02:09</publishTime>
+    </File>
+    <File Include="img/rentcar.jpg">
+      <publishTime>10/20/2016 14:15:03</publishTime>
+    </File>
+    <File Include="img/rentcar.png">
+      <publishTime>01/17/2017 09:56:22</publishTime>
+    </File>
+    <File Include="img/rentcar02.jpg">
+      <publishTime>01/16/2017 16:46:41</publishTime>
+    </File>
+    <File Include="img/rentcar_05.jpg">
+      <publishTime>01/16/2017 16:47:54</publishTime>
+    </File>
+    <File Include="img/rentcar_08.png">
+      <publishTime>01/17/2017 10:00:24</publishTime>
+    </File>
+    <File Include="img/rent_03.png">
+      <publishTime>01/16/2017 17:31:55</publishTime>
+    </File>
+    <File Include="img/rent_erweima.jpg">
+      <publishTime>01/16/2017 16:20:13</publishTime>
+    </File>
+    <File Include="img/serv_03.png">
+      <publishTime>09/21/2016 15:05:00</publishTime>
+    </File>
+    <File Include="img/serv_07.png">
+      <publishTime>09/21/2016 15:05:00</publishTime>
+    </File>
+    <File Include="img/serv_11.png">
+      <publishTime>09/21/2016 15:05:00</publishTime>
+    </File>
+    <File Include="img/solution.jpg">
+      <publishTime>10/20/2016 15:40:49</publishTime>
+    </File>
+    <File Include="img/Solution_01_03.png">
+      <publishTime>09/21/2016 15:05:00</publishTime>
+    </File>
+    <File Include="img/Solution_03.png">
+      <publishTime>09/21/2016 15:05:00</publishTime>
+    </File>
+    <File Include="img/Solution_05.png">
+      <publishTime>09/21/2016 15:05:00</publishTime>
+    </File>
+    <File Include="img/Solution_08.png">
+      <publishTime>09/21/2016 15:05:00</publishTime>
+    </File>
+    <File Include="img/sol_03.png">
+      <publishTime>09/21/2016 15:05:00</publishTime>
+    </File>
+    <File Include="img/sol_0300.jpg">
+      <publishTime>10/21/2016 10:54:34</publishTime>
+    </File>
+    <File Include="img/suc＿case_03.jpg">
+      <publishTime>10/21/2016 10:54:49</publishTime>
+    </File>
+    <File Include="img/teamstyle_06.png">
+      <publishTime>09/22/2016 10:24:54</publishTime>
+    </File>
+    <File Include="img/team_02.png">
+      <publishTime>10/20/2016 16:00:06</publishTime>
+    </File>
+    <File Include="img/zuchehaibao.png">
+      <publishTime>01/16/2017 16:51:30</publishTime>
+    </File>
+    <File Include="img/停车场（DS）_03.jpg">
+      <publishTime>09/19/2016 10:35:42</publishTime>
+    </File>
+    <File Include="img/停车场（DS）_07.jpg">
+      <publishTime>09/19/2016 10:35:42</publishTime>
+    </File>
+    <File Include="img/停车场（DS）_11.jpg">
+      <publishTime>09/19/2016 10:35:42</publishTime>
+    </File>
+    <File Include="img/停车场（DS）_15.jpg">
+      <publishTime>09/19/2016 10:35:42</publishTime>
+    </File>
+    <File Include="img/停车场（DS）_19.jpg">
+      <publishTime>09/19/2016 10:35:42</publishTime>
+    </File>
+    <File Include="img/停车场（DS）_22.jpg">
+      <publishTime>09/19/2016 10:35:42</publishTime>
+    </File>
+    <File Include="img/停车场（DS）_25.jpg">
+      <publishTime>09/19/2016 10:35:42</publishTime>
+    </File>
+    <File Include="img/停车场（DS）_29.jpg">
+      <publishTime>09/19/2016 10:35:42</publishTime>
+    </File>
+    <File Include="img/停车场（DS）_31.jpg">
+      <publishTime>09/19/2016 10:35:42</publishTime>
+    </File>
+    <File Include="img/停车场（DS）_35.jpg">
+      <publishTime>09/19/2016 10:35:42</publishTime>
+    </File>
+    <File Include="img/停车场（DS）_39.jpg">
+      <publishTime>09/19/2016 10:35:42</publishTime>
+    </File>
+    <File Include="img/停车场（DS）_42.jpg">
+      <publishTime>09/19/2016 10:35:42</publishTime>
+    </File>
+    <File Include="img/停车场（DS）_47.jpg">
+      <publishTime>09/19/2016 10:35:42</publishTime>
+    </File>
+    <File Include="img/停车场（DS）_51.jpg">
+      <publishTime>09/19/2016 10:35:42</publishTime>
+    </File>
+    <File Include="img/停车场（DS）_54.jpg">
+      <publishTime>09/19/2016 10:35:42</publishTime>
+    </File>
+    <File Include="img/停车场（DS）_58.jpg">
+      <publishTime>09/19/2016 10:35:42</publishTime>
+    </File>
+    <File Include="img/停车场（DS）_61.jpg">
+      <publishTime>09/19/2016 10:35:42</publishTime>
+    </File>
+    <File Include="img/停车场（DS）_64.jpg">
+      <publishTime>09/19/2016 10:35:42</publishTime>
+    </File>
+    <File Include="img/停车场（DS）_69.jpg">
+      <publishTime>09/19/2016 10:35:42</publishTime>
+    </File>
+    <File Include="img/停车场（DS）_72.jpg">
+      <publishTime>09/19/2016 10:35:42</publishTime>
+    </File>
+    <File Include="img/停车场（DS）_76.jpg">
+      <publishTime>09/19/2016 10:35:42</publishTime>
+    </File>
+    <File Include="img/停车海报（存）.jpg">
+      <publishTime>10/20/2016 12:37:50</publishTime>
+    </File>
+    <File Include="img/充电桩_03.jpg">
+      <publishTime>09/14/2016 15:57:20</publishTime>
+    </File>
+    <File Include="img/充电桩_11.jpg">
+      <publishTime>09/14/2016 15:57:21</publishTime>
+    </File>
+    <File Include="img/充电桩_14.jpg">
+      <publishTime>09/14/2016 15:57:21</publishTime>
+    </File>
+    <File Include="img/充电桩_16.jpg">
+      <publishTime>09/14/2016 15:57:21</publishTime>
+    </File>
+    <File Include="img/充电桩_19.jpg">
+      <publishTime>09/14/2016 15:57:21</publishTime>
+    </File>
+    <File Include="img/充电桩_23.jpg">
+      <publishTime>09/14/2016 15:57:21</publishTime>
+    </File>
+    <File Include="img/充电桩_26.jpg">
+      <publishTime>09/14/2016 15:57:21</publishTime>
+    </File>
+    <File Include="img/充电桩_29.jpg">
+      <publishTime>09/14/2016 15:57:21</publishTime>
+    </File>
+    <File Include="img/充电桩_33.jpg">
+      <publishTime>09/14/2016 15:57:21</publishTime>
+    </File>
+    <File Include="img/充电桩_37.jpg">
+      <publishTime>09/14/2016 15:57:21</publishTime>
+    </File>
+    <File Include="img/充电桩_40.jpg">
+      <publishTime>09/14/2016 15:57:21</publishTime>
+    </File>
+    <File Include="img/充电桩_44.jpg">
+      <publishTime>09/14/2016 15:57:21</publishTime>
+    </File>
+    <File Include="img/充电桩_48.jpg">
+      <publishTime>09/14/2016 15:57:21</publishTime>
+    </File>
+    <File Include="img/充电桩海报（存）.jpg">
+      <publishTime>10/20/2016 12:35:40</publishTime>
+    </File>
+    <File Include="img/租车_03.jpg">
+      <publishTime>09/20/2016 10:11:22</publishTime>
+    </File>
+    <File Include="img/租车_07.jpg">
+      <publishTime>09/20/2016 10:11:22</publishTime>
+    </File>
+    <File Include="img/租车_10.jpg">
+      <publishTime>09/20/2016 10:11:22</publishTime>
+    </File>
+    <File Include="img/租车_13.jpg">
+      <publishTime>09/20/2016 10:11:22</publishTime>
+    </File>
+    <File Include="img/租车_17.jpg">
+      <publishTime>09/20/2016 10:11:22</publishTime>
+    </File>
+    <File Include="img/租车_20.jpg">
+      <publishTime>09/20/2016 10:11:22</publishTime>
+    </File>
+    <File Include="img/租车_25.jpg">
+      <publishTime>09/20/2016 10:11:22</publishTime>
+    </File>
+    <File Include="img/租车_28.jpg">
+      <publishTime>09/20/2016 10:11:22</publishTime>
+    </File>
+    <File Include="img/租车_31.jpg">
+      <publishTime>09/20/2016 10:11:22</publishTime>
+    </File>
+    <File Include="img/租车_35.jpg">
+      <publishTime>09/20/2016 10:11:22</publishTime>
+    </File>
+    <File Include="img/租车_38.jpg">
+      <publishTime>09/20/2016 10:11:22</publishTime>
+    </File>
+    <File Include="img/租车_39_03.jpg">
+      <publishTime>09/20/2016 10:11:22</publishTime>
+    </File>
+    <File Include="img/租车_41.jpg">
+      <publishTime>09/20/2016 10:11:22</publishTime>
+    </File>
+    <File Include="img/租车_44.jpg">
+      <publishTime>09/20/2016 10:11:22</publishTime>
+    </File>
+    <File Include="img/租车_47.jpg">
+      <publishTime>09/20/2016 10:11:22</publishTime>
+    </File>
+    <File Include="img/租车_53.jpg">
+      <publishTime>09/20/2016 10:11:22</publishTime>
+    </File>
+    <File Include="img/租车海报%28存%29.jpg">
+      <publishTime>10/20/2016 12:38:59</publishTime>
+    </File>
+    <File Include="jquery-1.12.0.min.js">
+      <publishTime>09/26/2016 09:56:01</publishTime>
+    </File>
+    <File Include="lazyload.js">
+      <publishTime>09/26/2016 09:54:47</publishTime>
+    </File>
+    <File Include="Mi.html">
+      <publishTime>12/14/2016 10:36:16</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/12/2016 14:21:55</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.12.0.min.js">
+      <publishTime>09/23/2016 10:53:55</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.js">
+      <publishTime>09/12/2016 14:21:52</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.min.js">
+      <publishTime>09/12/2016 14:21:52</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.8.20.js">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.8.20.min.js">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Scripts/jquery.flexslider-min.js">
+      <publishTime>09/12/2016 14:27:01</publishTime>
+    </File>
+    <File Include="Scripts/jquery.js">
+      <publishTime>09/12/2016 14:27:01</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.js">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.min.js">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>09/12/2016 14:21:52</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>09/12/2016 14:21:52</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Scripts/knockout-2.1.0.debug.js">
+      <publishTime>09/12/2016 14:21:54</publishTime>
+    </File>
+    <File Include="Scripts/knockout-2.1.0.js">
+      <publishTime>09/12/2016 14:21:54</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.5.3.js">
+      <publishTime>09/12/2016 14:21:53</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>09/12/2016 14:21:52</publishTime>
+    </File>
+    <File Include="Test.html">
+      <publishTime>12/13/2016 19:08:57</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>09/12/2016 14:21:51</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>12/14/2016 10:41:23</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>09/12/2016 14:21:51</publishTime>
+    </File>
+    <File Include="Views/YTian/ChargingPile.cshtml">
+      <publishTime>10/20/2016 14:17:02</publishTime>
+    </File>
+    <File Include="Views/YTian/Company_Adress.cshtml">
+      <publishTime>10/21/2016 10:55:10</publishTime>
+    </File>
+    <File Include="Views/YTian/Company_Profile.cshtml">
+      <publishTime>10/21/2016 10:57:09</publishTime>
+    </File>
+    <File Include="Views/YTian/Index.cshtml">
+      <publishTime>12/15/2016 11:50:48</publishTime>
+    </File>
+    <File Include="Views/YTian/ParkingLot.cshtml">
+      <publishTime>10/20/2016 14:15:46</publishTime>
+    </File>
+    <File Include="Views/YTian/RentCar.cshtml">
+      <publishTime>01/17/2017 10:06:49</publishTime>
+    </File>
+    <File Include="Views/YTian/Service_Center.cshtml">
+      <publishTime>10/21/2016 10:59:25</publishTime>
+    </File>
+    <File Include="Views/YTian/Solution.cshtml">
+      <publishTime>10/21/2016 10:19:06</publishTime>
+    </File>
+    <File Include="Views/YTian/Success_Case.cshtml">
+      <publishTime>10/21/2016 10:58:15</publishTime>
+    </File>
+    <File Include="Views/YTian/Team_Style.cshtml">
+      <publishTime>10/21/2016 10:57:52</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>09/12/2016 14:21:51</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/17/2017 10:33:31</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

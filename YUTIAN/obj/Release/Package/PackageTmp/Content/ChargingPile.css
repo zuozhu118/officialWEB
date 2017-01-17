@@ -1,0 +1,148 @@
+﻿*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container
+{
+    /*padding-top: 45px;*/
+    text-align: center;
+    /*border: 3px solid red;*/
+    font-size: 16px;
+}
+
+.part0
+{
+    text-align: center;
+    /*border: 3px solid red;*/
+    /*min-width: 1100px;*/
+}
+
+    .part0 img
+    {
+        /*height:60vh;*/
+        /*width: 1668px;*/
+        width:100%;
+        /*width: 100vw;*/
+        /*min-width: 1100px;*/
+    }
+
+.TextSDescription
+{
+    border-left: 2px solid #ff6700;
+    padding-left: 12px;
+    width: 1000px;
+    margin: 0 auto;
+    color:#484849;
+}
+
+    .TextSDescription p
+    {
+        text-align: left;
+        font-size: 18px;
+    }
+
+        .TextSDescription p:first-child
+        {
+            font-size: 28px;
+            line-height: 2.5;
+            font-weight: bold;
+        }
+
+.partcom
+{
+    margin-top: 80px;
+}
+
+.titleimg
+{
+    margin-bottom: 77px;
+}
+    
+.TextSDescription
+{
+    margin-top: 40px;
+    margin-bottom: 53px;
+    padding-bottom:6px;
+}
+
+.part2 > img:last-child
+{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.part3
+{
+}
+
+.part3_center
+{
+    margin: 0 auto;
+    /*border: 1px solid blue;*/
+    overflow: hidden;
+    width: 1100px;
+    position: relative;
+}
+
+.part3_phone
+{
+    float: left;
+}
+
+.partcom ul
+{
+    list-style: none;
+    /*border: 1px solid red;*/
+    /*float: left;*/
+    position: absolute;
+    bottom: 0px;
+    left: 500px;
+}
+
+   .partcom ul li:not(:last-child)
+    {
+        position: relative;
+        cursor: pointer;
+        margin-bottom: 36px;
+        /*border: 1px solid green;*/
+    }
+
+   .partcom ul img:first-child
+    {
+        position: relative;
+        z-index: 10;
+    }
+
+   .partcom ul img
+    {
+        /*position: absolute;*/
+        left: 0px;
+    }
+/*.part3 ul li:not(:first-child):hover img:last-child
+    {
+        z-index:100;
+    }*/
+/*.part3 ul li:hover img:last-child
+    {
+        z-index:100;
+    }*/
+/*.part3 ul li:hover:first-child img:first-child
+    {
+        z-index:100;
+    }*/
+/*.part3 ul li:first-child:hover img:first-child
+    {
+         z-index:10;
+    }*/
+.part5
+{
+    margin-bottom:90px;
+}
+.part5 ul
+{
+    /*position: absolute;*/
+    top:25%;
+    /*left: 500px;*/
+}

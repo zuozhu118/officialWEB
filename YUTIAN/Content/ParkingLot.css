@@ -1,0 +1,147 @@
+﻿.fr
+{
+    float: right;
+}
+
+.fl
+{
+    float: left;
+}
+
+.findcenter
+{
+    position: relative;
+    text-align: left;
+    width: 1000px;
+    /*border:1px solid red;*/
+    margin: 0 auto;
+}
+
+    .findcenter ul
+    {
+        top: 20%;
+        left: 550px;
+    }
+
+        .findcenter ul li
+        {
+            overflow: hidden;
+        }
+
+            .findcenter ul li img
+            {
+                /*border:1px solid red;*/
+                float: left;
+            }
+
+.findlist
+{
+    margin-left: 75px;
+    /*border:1px solid red;*/
+    overflow:hidden;
+}
+
+    .findlist p
+    {
+        float: left;
+        line-height: 22px;
+        color: #4c4c4f;
+        /*border:1px solid red;*/
+    }
+
+    .findlist h2, .findlist img
+    {
+        margin-bottom: 7px;
+    }
+
+.parkprefercenter
+{
+    /*border: 1px solid red;*/
+    overflow: hidden;
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+    .parkprefercenter span
+    {
+        display: inline-block;
+        width: 400px;
+        height: 400px;
+        /*border: 1px solid green;*/
+        background: url("/img/停车场（DS）_42.jpg") no-repeat 110px 50px;
+    }
+
+    .parkprefercenter img:last-of-type
+    {
+        /*border: 1px solid blue;*/
+        float: right;
+    }
+
+    .parkprefercenter .TextSDescription
+    {
+        /**/
+        position: absolute;
+        bottom: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 6px;
+        width: 450px;
+    }
+
+.experience_center
+{
+    /*border: 3px solid red;*/
+    width: 840px;
+    margin: 0 auto;
+    margin-bottom: 36px;
+    position: relative;
+    overflow: hidden;
+}
+
+.experience_center_left
+{
+    /*border: 1px solid red;*/
+    width: 350px;
+    height: 700px;
+    background: url("/img/停车场（DS）_58.jpg") no-repeat center;
+}
+
+.experience_center_right
+{
+    /*border: 1px solid blue;*/
+    position: absolute;
+    top: 120px;
+    right: 0px;
+    width: 430px;
+}
+    .experience_center_right > img:nth-child(1)
+    {
+        /*border:3px solid red;*/
+        width:220px;
+        height:220px;
+    }
+    .experience_center_right p
+    {
+        text-align: left;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+.part6
+{
+    /*border: 1px solid red;*/
+    /*height: 800px;*/
+}
+
+    .part6 .findcenter
+    {
+        /*border: 1px solid green;*/
+        width: 700px;
+        height: 460px;
+    }
+
+        .part6 .findcenter ul
+        {
+            top: 0%;
+            left: 360px;
+        }

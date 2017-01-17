@@ -1,0 +1,596 @@
+﻿
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+}
+
+a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul, ol, li
+{
+    list-style: outside none none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+body
+{
+    /*overflow:auto;*/
+    overflow: auto;
+    /*min-width: 1366px;*/
+    /*border: 3px solid red;*/
+}
+
+
+
+#header
+{
+    width: 100%;
+    /*width: 100vw;*/
+    height: 56px;
+    background-color: #030304;
+    color: #FFF;
+}
+
+#nav
+{
+    /*border: 2px solid blue;*/
+    /*width: 1100px;*/
+    height: 56px;
+    /*margin: 0 auto;*/
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /*position:fixed;*/
+}
+
+    #nav > *
+    {
+        /*border: 1px solid red;*/
+    }
+
+    #nav > div
+    {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
+    }
+
+    #nav span
+    {
+        line-height: 56px;
+        margin-left: 30px;
+    }
+
+    #nav img
+    {
+        /*border: 1px solid green;*/
+        height: 28px;
+    }
+
+    #nav > ul
+    {
+    }
+
+        #nav > ul > li
+        {
+            list-style-type: none;
+            display: table-cell;
+            line-height: 56px;
+            text-align: center;
+            /*border:1px solid green;*/
+        }
+
+.navlink a
+{
+    background: url('/img/logo.png') no-repeat center;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+.ullist
+{
+    position: absolute;
+    z-index: 999;
+    list-style-type: none;
+    width: 120px;
+    opacity: 0;
+    cursor: pointer;
+    color: black;
+}
+
+    .ullist > li
+    {
+        /*background-color: red;*/
+        background-color: #c4c4c2;
+        opacity: .4;
+    }
+
+    .ullist li a
+    {
+        /*border: 1px solid red;*/
+        color: #030304;
+        /*font-weight:bold;*/
+    }
+
+    .ullist li:hover a
+    {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .ullist > li:hover
+    {
+        background-color: #fe6700;
+    }
+
+#nav > ul > li > a
+{
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 120px;
+    height: 56px;
+    display: block;
+}
+
+#nav > ul > li:hover
+{
+    background-color: #fe6700;
+}
+
+    #nav > ul > li:hover ul
+    {
+        opacity: 1;
+        background-color: #d3d4c9;
+    }
+
+.banner
+{
+    height: 0;
+    padding-top: 34%;
+    /*border: 2px solid red;*/
+    position: relative;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+    .banner ul li
+    {
+        /*border: 2px solid green;*/
+        left: 0;
+        position: absolute;
+        top: 0;
+        opacity: 0;
+        transition: all linear 1s;
+    }
+
+    .banner img
+    {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+/*@keyframes animations
+{
+    0%
+    {
+        opacity: 0; /*初始状态 透明度为0
+    }
+
+    100%
+    {
+        opacity: 1; /*结尾状态 透明度为1
+    }
+}
+*/
+
+#about
+{
+    width: 100%;
+    height: 144px;
+    background: url(../img/aboutus.png) center no-repeat;
+}
+
+#project
+{
+    /*height: 490px;*/
+    margin: 20px auto 0;
+    display: table;
+    border-spacing: 30px 0;
+    /*width:100%;*/
+    /*border: 1px solid green;*/
+}
+
+    #project ul
+    {
+        /*display: flex;
+        justify-content: center;*/
+        display: table-row;
+        /*text-align: center;*/
+        overflow: hidden;
+        /*border: 1px solid green;*/
+    }
+
+        #project ul li
+        {
+            display: table-cell;
+            list-style: none;
+            /*margin-right: 36px;*/
+            position: relative;
+            /*border:1px solid blue;*/
+        }
+
+            #project ul li > div
+            {
+                width: 364px;
+                height: 408px;
+                /*border: 1px solid red;*/
+            }
+
+#project1
+{
+    background: url(../img/p1.png) center no-repeat;
+}
+
+    #project1:hover
+    {
+        background: url(../img/p1h.png) center no-repeat;
+    }
+
+#project2
+{
+    background: url(../img/p2.png) center no-repeat;
+}
+
+    #project2:hover
+    {
+        background: url(../img/p2h.png) center no-repeat;
+    }
+
+#project3
+{
+    background: url(../img/p3.png) center no-repeat;
+}
+
+    #project3:hover
+    {
+        background: url(../img/p3h.png) center no-repeat;
+    }
+
+#project ul li a
+{
+    /*border:2px solid red;*/
+    position: absolute;
+    top: 282px;
+    left: 20px;
+    right: 20px;
+    font-size: 18px;
+    color: #fe6700;
+    text-decoration: none;
+}
+
+#project p
+{
+    text-align: left;
+    margin-top: 6px;
+}
+
+    #project p:last-of-type
+    {
+        line-height: 1.7;
+    }
+
+.title1
+{
+    color: #fe6700;
+    margin-top: 0;
+}
+
+.title2
+{
+    color: #505050;
+    font-family: "Georgia";
+}
+
+.title3
+{
+    font-size: 14px;
+    color: #fff;
+}
+
+#partner
+{
+    /*border:1px solid red;*/
+    width: 100%;
+    height: 100px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    background: url(../img/hb_03.png) center no-repeat;
+}
+
+#partner_img
+{
+    /*border:1px solid blue;*/
+    width: 100%;
+    height: 140px;
+    background: url(../img/partner.png) center no-repeat;
+    position: relative;
+    /*top: 40px;*/
+}
+
+#bottom
+{
+    width: 100%;
+    height: 236px;
+    background: url(../img/bottom.png);
+    margin-top: 50px;
+    /*border:1px solid green;*/
+}
+
+#box
+{
+    width: 940px;
+    height: 130px;
+    margin: 30px auto;
+    padding-left: 62px;
+    /*border:1px solid blue;*/
+}
+
+#box_l
+{
+    margin-top: 30px;
+    /*width: 450px;*/
+    height: 100px;
+    float: left;
+    /*border:1px solid green;*/
+}
+
+    #box_l ul li
+    {
+        list-style: none;
+        float: left;
+        margin-right: 78px;
+        /*border:1px solid red;*/
+    }
+
+#box1
+{
+    height: 100px;
+    display: block;
+}
+
+.t1
+{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 16px;
+    margin-top: 0px;
+}
+
+.t2
+{
+    font-size: 12px;
+    color: #fff;
+    margin-top: 4px;
+}
+
+#box1 .t2:last-child a
+{
+    /*font-size: 12px;*/
+    /*color:green;*/
+}
+
+#box_r
+{
+    margin-top: 30px;
+    width: 470px;
+    height: 90px;
+    float: right;
+    /*border:1px solid red;*/
+}
+
+    #box_r img
+    {
+        float: left;
+        margin: 5px 34px 4px 0px;
+    }
+
+#box_b
+{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    margin-bottom: 0px;
+    color: #b6b6b6;
+    font-size: 14px;
+}
+
+
+/*屏幕宽度小于1024px时:*/
+@media all and (max-width:1024px)
+{
+    html, body
+    {
+        width: 1024px;
+    }
+
+    .flexslider
+    {
+        width: 1024px;
+        height: 341px;
+    }
+
+    #project ul li > div, #project ul li > div:hover
+    {
+        width: 268px;
+        height: 300px;
+    }
+
+    #project1:hover
+    {
+        /*background: url(../img/p1h.png) center  no-repeat;*/
+        background: url(../img/ph1.png) center 2px no-repeat;
+    }
+
+    #project2:hover
+    {
+        background: url(../img/ph2.png) center 2px no-repeat;
+    }
+
+    #project3:hover
+    {
+        background: url(../img/ph3.png) center 2px no-repeat;
+    }
+
+    #project ul li a
+    {
+        top: 229px;
+        left: 5px;
+        right: 0px;
+    }
+
+    #project ul li p
+    {
+        margin-top: 0;
+    }
+
+    .title1, .title2
+    {
+        font-size: 13px;
+    }
+
+    .title3
+    {
+        font-size: 11px;
+    }
+}
+/*屏幕宽度大于1024px小于1366px:*/
+@media all and (min-width:1024px) and (max-width:1366px)
+{
+    html, body
+    {
+        width: 100%;
+        /*background:blue;*/
+    }
+
+    .flexslider
+    {
+        width: 100%;
+        height: 455px;
+    }
+
+
+    #project ul li > div, #project ul li > div:hover
+    {
+        width: 291.2px;
+        height: 326.4px;
+    }
+
+    #project1:hover
+    {
+        background: url(../img/ph1.png) center 2px no-repeat;
+    }
+
+    #project2:hover
+    {
+        background: url(../img/ph2.png) center 2px no-repeat;
+    }
+
+    #project3:hover
+    {
+        background: url(../img/ph3.png) center 2px no-repeat;
+    }
+
+    #project ul li a
+    {
+        top: 244px;
+        left: 10px;
+        right: 10px;
+    }
+
+    #project ul li p
+    {
+        margin-top: 0;
+    }
+
+    .title1, .title2
+    {
+        font-size: 14px;
+    }
+
+    .title3
+    {
+        font-size: 12px;
+    }
+    
+}
+
+@media all and (min-width:1366px) and (max-width:1600px)
+{
+    html, body
+    {
+        /*width: 1366px;*/
+        width: 100%;
+    }
+
+    .flexslider
+    {
+        width: 100%;
+        height: 533px;
+    }
+}
+
+@media all and (min-width:1600px) and (max-width:1920px)
+{
+    html, body
+    {
+        /*width: 1600px;*/
+        width: 100%;
+    }
+
+    .flexslider
+    {
+        width: 100%;
+        /*height:75vh;*/
+    }
+}
+/*屏幕宽度大于1920px时：*/
+@media all and (min-width:1920px)
+{
+    html, body
+    {
+        width: 100%;
+    }
+
+    .flexslider
+    {
+        width: 100%;
+        /*height:75vh;*/
+    }
+}

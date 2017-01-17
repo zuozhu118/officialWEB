@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>武汉喻天科技有限公司</title>
+    <link href="~/Content/YutianIndex.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+       @* <script src="~/jquery-1.12.0.min.js"></script>*@
+</head>
+<body>
+    <!--页头 开始-->
+    <div id="header">
+        <div id="nav">
+            <div class="navlink">
+                <a href="/YTian/Index"></a>
+                <span>You-Turn</span>
+            </div>
+            <ul>
+                <li><a href="/YTian/Index">首页</a></li>
+                <li><a href="javascript:void(0)">汽车IT服务</a>
+                    <ul class="ullist">
+                        <li><a href="/YTian/ChargingPile">充电桩</a></li>
+                        <li><a href="/YTian/ParkingLot">智能停车场</a></li>
+                        <li><a href="/YTian/RentCar">分时租赁</a></li>
+                    </ul>
+                </li>
+                <li><a href="/YTian/Solution">解决方案</a></li>
+                <li><a href="/YTian/Service_Center">服务中心</a>
+                    <ul class="ullist">
+                        <li><a href="/YTian/Company_Adress">公司地址</a></li>
+                        <li><a href="/YTian/Service_Center">服务中心</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:void(0)">关于我们</a>
+                    <ul class="ullist">
+                        <li><a href="/YTian/Company_Profile">公司介绍</a></li>
+                        <li><a href="/YTian/Team_Style">团队风采</a></li>
+                        <li><a href="/YTian/Success_Case">成功案例</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--页头 结束-->
+    <div class="main">
+        @RenderBody()       
+    </div>
+    <!--底部 开始-->
+    <div id="bottom">
+        <div id="box">
+            <div id="box_l">
+                <ul>
+                    <li>
+                        <div id="box1">
+                            <p class="t1">核心产品</p>
+                            <p class="t2"><a href="/YTian/ParkingLot">车厂解决方案</a></p>
+                            <p class="t2"><a href="/YTian/ChargingPile">电桩解决方案</a></p>
+                            <p class="t2"><a href="/YTian/RentCar">分时租赁</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="Div1">
+                            <p class="t1">服务中心</p>
+                            <p class="t2"><a href="/YTian/Company_Adress">公司地址</a></p>
+                            <p class="t2"><a href="/YTian/Service_Center">服务中心</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="Div2">
+                            <p class="t1">关于我们</p>
+                            <p class="t2"><a href="/YTian/Company_Profile">公司介绍</a></p>
+                            <p class="t2"><a href="/YTian/Team_Style">团队风采</a></p>
+                            <p class="t2"><a href="/YTian/Success_Case">成功案例</a></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="box_r">
+                <img src="../img/ewm.png" /><div>
+                    <p class="t2">电话：027-87688655</p>
+                    <p class="t2">&emsp;&emsp;&emsp;027-59335572</p>
+                    <p class="t2">
+                        网址：www.027hb.cn
+                    </p>
+                    <p class="t2">地址：武汉市洪山区珞喻路佳园路光谷国际大厦A座</p>
+                </div>
+            </div>
+        </div>
+        <div id="box_b">© 2014 Copyright  武汉喻天科技有限公司 版权所有 鄂ICP备14018985号-1</div>
+    </div>
+    <!--底部 结束-->
+</body>
+</html>

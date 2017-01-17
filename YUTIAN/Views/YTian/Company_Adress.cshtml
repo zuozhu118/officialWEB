@@ -1,0 +1,72 @@
+﻿@{
+    ViewBag.Title = "Company_Adress";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style> 
+    #banner{margin:0 auto;width:1200px;}
+#con{width:1200px;margin:0 auto;margin-top:80px;}
+#con ul{margin-left:106px;}
+#con ul li{width:470px;height:160px;list-style-type:none;margin-top:10px;}
+
+.text{margin-left:10px;margin-top:10px;}
+.text p{font-size:14px;color:#4c4c4c;}
+    .map
+    {
+        /*border:1px solid red;*/
+        overflow:hidden;
+        width:470px;
+        height:270px;
+        margin-bottom:10px;
+    }
+</style>
+<div id="banner">
+      @* <img src="~/img/sol_03.png" />*@
+    <img src="~/img/sol_0300.jpg" />
+    </div>
+    <div id="con">
+         <ul>
+         	<li>
+            	<div class="img"> <img src="~/img/address_03.png" /></div>
+                <div class="text">
+                    <p>地　址：武汉市洪山区珞喻路佳园路光谷国际大厦A座<br/>电　话：027-87688655<br/> &emsp;&emsp;&emsp;&emsp;027-59335572<br/>邮　箱：service@027hb.cn<br/>邮　编：430000</p>
+                 </div>
+            </li>
+            <li style="height:270px;">
+            	<div class="img map" id="baiduMAP"> 
+                   @* <img src="~/img/adress_11.png" />*@
+
+            	</div>
+            </li>
+            <li>
+            	<div class="img">
+                    <img src="~/img/address_07.png" /></div>
+                 <div class="text">
+                    <p>地　址：华中科技大学软件学院四楼<br/>联系人：张主任<br/> 电　话：13986049160<br/>邮　箱：zhangyi@027hb.cn</p>
+                 </div>
+            </li>
+            <li>
+            	<div class="img">
+                    <img src="~/img/address_09.png" /></div>
+                 <div class="text">
+                    <p>地　址：华中科技大学工业设计系四楼<br/>联系人：朱主任<br/>电　话：15377020446<br/>邮　箱：zhujia@027hb.cn</p>
+                 </div>
+            </li>
+            
+         </ul>
+    </div>
+<script src="~/Scripts/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=5cqW9gRejdYjxQkfkyuwEqyq"></script>
+
+<script type="text/javascript">    
+
+    //=======根据城市名设置地图中心点=============
+    var map = new BMap.Map("baiduMAP");  // 创建Map实例
+    //map.centerAndZoom("武汉");      // 初始化地图,用城市名设置地图中心点
+    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+    var point = new BMap.Point(114.436697, 30.510292);//根据坐标创建点位置；
+    map.centerAndZoom(point,15);
+    var marker = new BMap.Marker(point);  // 创建标注
+    map.addOverlay(marker);              // 将标注添加到地图中
+    var label = new BMap.Label("武汉喻天科技有限公司", { offset: new BMap.Size(-40, -26) });
+    marker.setLabel(label);
+</script>
